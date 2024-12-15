@@ -17,7 +17,7 @@ alert("Requisitos mínimos: Noções de Corte de cabelo,Vontade de Aprender")
 }
 
 function moreV2(){
-    alert("Requisitos mínimos: Noções de mecanica de motocicletas")
+    alert("Acesse a página https://carreiras.magazineluiza.com.br/ para saber mais")
 }
 
 showAll.addEventListener('click',showAllVagas);
