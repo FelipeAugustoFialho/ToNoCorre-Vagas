@@ -201,6 +201,26 @@ footer {
     margin-right: 53px;
     font-family: Poppins;
 }
+.p2Footer {
+
+    font-size: 15px;
+    justify-content: center;
+    color: #FFFFFF;
+    margin-top: 19px;
+    margin-left: 136px;
+    margin-right: 53px;
+    font-family: Poppins;
+}
+.p3Footer {
+
+    font-size: 15px;
+    justify-content: center;
+    color: #FFFFFF;
+    margin-top: 19px;
+    margin-left: 136px;
+    margin-right: 53px;
+    font-family: Poppins;
+}
 a{
     margin-top: 4px;
 }
@@ -253,6 +273,7 @@ a{
 
 
 @media screen and (max-width: 700px){
+
     nav{
        /*display: block;*/
        display: none;
@@ -262,15 +283,6 @@ a{
     }
 
 
-/*
-    .navMobile{
-        
-        display: grid;
-        margin: auto;
-        background-color: black;
-        width: 150px;
-        */
-       
     
     
     .list{
@@ -317,4 +329,50 @@ transition: 1s;
         font-size: 12px;
         margin-left: -30px;
     }
+
+
+    footer{
+     color: #FFFFFF;
+    display: block;
+    justify-content: center;
+    font-size: 25px;
+    gap: 30px;
+    /*height: 120px;*/
+    height: 85px;
+    width: 98vw;
+    background-color: #202020;
+    }
+    a{
+        margin-left: 60px;
+    }
+    .pFooter{
+        font-size: 12px;
+        margin-left: 48px;
+        margin-top: 25px;
+    }
+
+    .p2Footer {
+    font-size: 12px;
+    justify-content: center;
+    color: #FFFFFF;
+    margin-top: -17px;
+    margin-left: 189px;
+    margin-right: 36px;
+    font-family: Poppins;
+    
+}
+.p3Footer {
+
+  font-size: 12px;
+        justify-content: center;
+        color: #FFFFFF;
+        margin-top: 11px;
+        margin-bottom: 1px;
+        margin-left: 157px;
+        margin-right: 35px;
+        font-family: Poppins;
+}
+}
+
+
 }
