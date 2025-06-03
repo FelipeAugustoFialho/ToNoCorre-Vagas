@@ -338,8 +338,8 @@ transition: 1s;
     font-size: 25px;
     gap: 30px;
     /*height: 120px;*/
-    height: 85px;
-    width: 98vw;
+    height: 71px;
+    width: 100vw;
     background-color: #202020;
     }
     a{
@@ -354,25 +354,24 @@ transition: 1s;
     .p2Footer {
     font-size: 12px;
     justify-content: center;
-    color: #FFFFFF;
-    margin-top: -17px;
+    margin-top: -18px;
     margin-left: 189px;
     margin-right: 36px;
-    font-family: Poppins;
+   
     
 }
 .p3Footer {
 
   font-size: 12px;
         justify-content: center;
-        color: #FFFFFF;
-        margin-top: 11px;
-        margin-bottom: 1px;
+         margin-top: 1px;
+        margin-bottom: -4px;
         margin-left: 157px;
         margin-right: 35px;
-        font-family: Poppins;
-}
+        
 }
 
 
 }
+
+
