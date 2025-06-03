@@ -229,11 +229,12 @@ a{
 .menu-options {
     display: none;
     background-color: #000;
+    opacity: 0.97;
     padding: 10px;
     position: absolute;
-    right: 10px;
-    top: 50px;
-    border-radius: 8px;
+    right: -20px;
+    top: 65px;
+    border-radius: 20px;
 }
 
 .menu-options li {
@@ -248,15 +249,29 @@ a{
 
 /* Quando ativar */
 .menu-options.active {
-    display: block;
-    
+   display: grid;
+   margin-right: 108px;
 }
+.menu-options.active+
 
 /* Ícone do menu */
 .menu-icon {
     font-size: 30px;
     cursor: pointer;
     color: black;
+}
+
+
+.bi-list{
+    font-size: 50px;
+    cursor: pointer;
+
+}
+.bi-list:hover{
+    color: #000;
+background:linear-gradient(#5de0e6,#004aad);
+border-radius: 20px;
+transition: 1s;
 }
 
 
