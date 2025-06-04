@@ -284,7 +284,7 @@ a{
 
 .menu-options li {
     list-style: none;
-    margin: 10px 0;
+    margin: 10px 10px 10px -37px;
 }
 
 .menu-options li a {
@@ -326,7 +326,7 @@ a{
 
 .menu-options.active {
    display: grid;
-   margin-right: 108px;
+   margin-right: 145px;
 }
 .menu-options.active+
 

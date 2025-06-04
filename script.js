@@ -25,12 +25,15 @@ alert("No Momento não há mais vagas")
 
 function moreV1(){
    
-alert("Requisitos mínimos: Noções de Corte de cabelo,Vontade de Aprender")
+alert(`Requisitos mínimos: 
+    -Noção de corte de cabelo;
+    -Vontade de aprender;`)
 
 }
 
 function moreV2(){
-    alert("Acesse a página https://carreiras.magazineluiza.com.br/ para saber mais")
+    alert(`Acesse a página para saber mais : 
+    https://carreiras.magazineluiza.com.br/ `)
 }
 
 
