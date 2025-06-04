@@ -95,7 +95,7 @@ border: #FFFFFF
     flex-wrap: wrap;
     justify-content: center;
     height: 59vh;  
-    width: 50vw;
+    width: 85vw;
     margin-bottom: 76px;
     
 }
@@ -124,9 +124,8 @@ margin-left: 50px;
 
 
 .vaga2{
-
-    margin-top: 50px;
     border: solid 4px #FFFFFF;
+    margin-top: 50px;
     width: 80vw;
     display: inline-flex;
     
@@ -282,6 +281,13 @@ a{
         display: grid;
     }
 
+    h2{
+        margin-top: 20px;
+    margin-bottom: 20px;
+    }
+  
+
+
 
     
     
@@ -326,10 +332,14 @@ transition: 1s;
         margin-left: 5px;
     }
     p{
-        font-size: 12px;
+        font-size: 14px;
         margin-left: -30px;
     }
 
+.vaga2{
+    margin-top: 25px;
+}
+  
 
     footer{
      color: #FFFFFF;
@@ -341,6 +351,7 @@ transition: 1s;
     height: 71px;
     width: 100vw;
     background-color: #202020;
+        margin-top: -13px;
     }
     a{
         margin-left: 60px;
