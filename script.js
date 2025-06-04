@@ -36,6 +36,5 @@ function moreV2(){
 
 
 menuIcon.addEventListener('click', toggleMenu);
-showAll.addEventListener('click',showAllVagas);
 more1.addEventListener('click',moreV1);
 more2.addEventListener('click',moreV2);
