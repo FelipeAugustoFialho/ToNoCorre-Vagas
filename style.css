@@ -1,136 +1,121 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
-*{
+* {
 
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-color:#FFFFFF;
-font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font-family: 'Poppins';
 }
 
-body{
-    background:url(./pag2.png);
+body {
+    background: url(./pag2.png);
     background-size: cover;
-    
-}
-
-nav{
-display: flex;
-gap: 40px;
-text-align: center;
-justify-content: center;
-}
-
-.navMobile{
-
-display: none;
-
 
 }
 
-h2{
+nav {
+    display: flex;
+    gap: 40px;
+    text-align: center;
+    justify-content: center;
+}
+
+.navMobile {
+
+    display: none;
+
+
+}
+
+h2 {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
     font-size: 35px;
 }
 
-p{
+p {
     font-size: 20px;
 }
 
-button{
-background:linear-gradient(#5de0e6,#004aad);
-width: 150px;
-height: 40px;
-border-radius: 50px;
-border: 4px solid black;
-font-size: 15px;
-margin-top: 20px;
-color: black;
-font-weight: bolder;
+button {
+    background: linear-gradient(#5de0e6, #004aad);
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    border: 4px solid black;
+    font-size: 15px;
+    margin-top: 20px;
+    color: black;
+    font-weight: bolder;
 }
 
-.links:hover{  text-decoration: none;
-color: #FFFFFF;
-cursor: pointer;
-border: #FFFFFF
+.links:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: #FFFFFF
 }
-.more1:hover{
+
+.more1:hover {
     text-decoration: underline none;
     color: #FFFFFF;
     cursor: pointer;
     border: #FFFFFF
 }
-.more2:hover{
+
+.more2:hover {
     text-decoration: underline none;
     color: #FFFFFF;
     cursor: pointer;
     border: #FFFFFF
 }
-.join1:hover{
-    text-decoration: underline none;
-    color: #FFFFFF;
-    cursor: pointer;
-    border: #FFFFFF
-    
-}
-.join2:hover{
+
+.join1:hover {
     text-decoration: underline none;
     color: #FFFFFF;
     cursor: pointer;
     border: #FFFFFF
 }
-.showAll:hover{
+
+.join2:hover {
     text-decoration: underline none;
     color: #FFFFFF;
     cursor: pointer;
     border: #FFFFFF
 }
-.vagas{
+
+.showAll:hover {
+    text-decoration: underline none;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: #FFFFFF
+}
+
+.vagas {
     margin-top: 50px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    height: 59vh;  
+    height: 59vh;
     width: 50vw;
     margin-bottom: 79px;
-    
-}
-.vaga1{
-
-
-border: solid 4px #FFFFFF;
-width: 80vw;
-display: inline-flex;
 
 }
-.imgVaga1{
-border: solid 4px #FFFFFF;
-height: 120px;
-width: 120px;
-margin-left: 30px;
-margin-top: 10px;
-margin-bottom: 10px;
-background-color: black;
-}
-.infoVaga1{
-margin-top: 20px;
-font-size: 30px;
-margin-left: 50px;
-}
+
+.vaga1 {
 
 
-.vaga2{
     border: solid 4px #FFFFFF;
-    margin-top: 50px;
     width: 80vw;
     display: inline-flex;
-    
-    }
-    .imgVaga2{
+
+}
+
+.imgVaga1 {
     border: solid 4px #FFFFFF;
     height: 120px;
     width: 120px;
@@ -138,38 +123,67 @@ margin-left: 50px;
     margin-top: 10px;
     margin-bottom: 10px;
     background-color: black;
-    }
+}
 
-
-
-    img{
-        height: 112px;
-        width: 112px;
-
-    }
-    .infoVaga2{
+.infoVaga1 {
     margin-top: 20px;
     font-size: 30px;
     margin-left: 50px;
-    }
+}
 
-    .buttons{
-        display: flex;
-        gap: 20px;
-    }
-.showAll{
+
+.vaga2 {
+    border: solid 4px #FFFFFF;
+    margin-top: 50px;
+    width: 80vw;
+    display: inline-flex;
+
+}
+
+.imgVaga2 {
+    border: solid 4px #FFFFFF;
+    height: 120px;
+    width: 120px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: black;
+}
+
+
+
+img {
+    height: 112px;
+    width: 112px;
+
+}
+
+.infoVaga2 {
+    margin-top: 20px;
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.showAll {
     display: flex;
     margin: auto;
     justify-content: center;
     align-items: center;
     margin-top: 40px;
 }
-.join1{
+
+.join1 {
     background: #00bf63;
     color: black;
     font-weight: bolder;
 }
-.join2{
+
+.join2 {
     background: #00bf63;
     color: black;
     font-weight: bolder;
@@ -184,7 +198,7 @@ footer {
     height: 51px;
     background-color: #202020;
 
-  
+
 
 
 }
@@ -200,6 +214,7 @@ footer {
     margin-right: 53px;
     font-family: Poppins;
 }
+
 .p2Footer {
 
     font-size: 15px;
@@ -210,6 +225,7 @@ footer {
     margin-right: 53px;
     font-family: Poppins;
 }
+
 .p3Footer {
 
     font-size: 15px;
@@ -221,27 +237,30 @@ footer {
     font-family: Poppins;
 }
 
-.bi-linkedin{
+.bi-linkedin {
     margin-top: 8px;
-     display: inline-flex;
-     gap: 10px;
+    display: inline-flex;
+    gap: 10px;
+    margin-left: -30px;
 
 }
-    
 
-.bi-google{
+
+.bi-google {
     display: inline-flex;
-      margin-top: 8px;
+    margin-top: 8px;
     gap: 10px;
 }
-.bi-github{
+
+.bi-github {
     display: inline-flex;
-  margin-top: 8px;
+    margin-top: 8px;
     gap: 10px;
 }
-.bi-browser-edge{
+
+.bi-browser-edge {
     display: inline-flex;
-  margin-top: 8px;
+    margin-top: 8px;
     gap: 10px;
 }
 
@@ -297,124 +316,131 @@ a{
 
 
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 700px) {
 
-    nav{
-       /*display: block;*/
-       display: none;
+    nav {
+        /*display: block;*/
+        display: none;
     }
-     .navMobile {
+
+    .navMobile {
         display: grid;
     }
 
-    h2{
+    h2 {
         margin-top: 20px;
-    margin-bottom: 20px;
+        margin-bottom: 20px;
     }
-  
 
 
 
-    
-    
-    .list{
+
+
+
+    .list {
         display: grid;
         margin: auto;
         background-color: black;
         width: 150px;
     }
 
-.menu-options.active {
-   display: grid;
-   margin-right: 145px;
-}
-.menu-options.active+
+    .menu-options.active {
+        display: grid;
+        margin-right: 145px;
+    }
 
-/* Ícone do menu */
-.menu-icon {
-    font-size: 30px;
-    cursor: pointer;
-    color: black;
-}
+    .menu-options.active+
+
+    /* Ícone do menu */
+    .menu-icon {
+        font-size: 50px;
+        cursor: pointer;
+        color: #FFFFFF
+    }
 
 
-.bi-list{
-    font-size: 50px;
-    cursor: pointer;
+    .bi-list {
+        font-size: 50px;
+        cursor: pointer;
 
-}
-.bi-list:hover{
-    color: #000;
-background:linear-gradient(#5de0e6,#004aad);
-border-radius: 20px;
-transition: 1s;
-}
+    }
 
-.vagas{
-    width: 85vw;
-}
+    .bi-list:hover {
+        color: #000;
+        background: linear-gradient(#5de0e6, #004aad);
+        border-radius: 20px;
+        transition: 1s;
+    }
+
+    .vagas {
+        width: 85vw;
+    }
+
     /*---------------------*/
-    .imgVaga1{
+    .imgVaga1 {
         margin-left: 5px;
     }
 
-    .imgVaga2{
+    .imgVaga2 {
         margin-left: 5px;
     }
-    p{
+
+    p {
         font-size: 14px;
         margin-left: -30px;
     }
 
-.vaga2{
-    margin-top: 25px;
-}
-.buttons{
-    gap:0px;
-}
-  
+    .vaga2 {
+        margin-top: 25px;
+    }
 
-    footer{
-     color: #FFFFFF;
-    display: block;
-    justify-content: center;
-    font-size: 25px;
-    gap: 30px;
-    height: 77px;
-    width: 100vw;
-    background-color: #202020;
+    .buttons {
+        gap: 0px;
+    }
+
+
+    footer {
+        color: #FFFFFF;
+        display: block;
+        justify-content: center;
+        font-size: 25px;
+        gap: 30px;
+        height: 77px;
+        width: 100vw;
+        background-color: #202020;
         margin-top: -13px;
     }
-    a{
+
+    a {
         margin-left: 60px;
     }
-    .pFooter{
+
+    .pFooter {
         font-size: 12px;
         margin-left: 48px;
         margin-top: -22px;
     }
 
     .p2Footer {
-    font-size: 12px;
-    justify-content: center;
-    margin-top: -18px;
-    margin-left: 189px;
-    margin-right: 36px;
-   
-    
-}
-.p3Footer {
-
-  font-size: 12px;
+        font-size: 12px;
         justify-content: center;
-         margin-top: 1px;
+        margin-top: -18px;
+        margin-left: 170px;
+        margin-right: 0;
+
+
+    }
+
+    .p3Footer {
+
+        font-size: 12px;
+        justify-content: center;
+        margin-top: 1px;
         margin-bottom: -4px;
         margin-left: 157px;
         margin-right: 35px;
-        
-}
+
+    }
 
 
 }
-
-
