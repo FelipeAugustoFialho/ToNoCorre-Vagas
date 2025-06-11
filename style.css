@@ -9,6 +9,18 @@
     font-family: 'Poppins';
 }
 
+html,
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    flex: 1;
+}
+
 body {
     background: url(./pag2.png);
     background-size: cover;
@@ -215,18 +227,8 @@ footer {
     font-family: Poppins;
 }
 
+
 .p2Footer {
-
-    font-size: 15px;
-    justify-content: center;
-    color: #FFFFFF;
-    margin-top: 19px;
-    margin-left: 136px;
-    margin-right: 53px;
-    font-family: Poppins;
-}
-
-.p3Footer {
 
     font-size: 15px;
     justify-content: center;
@@ -408,7 +410,8 @@ a{
         height: 77px;
         width: 100vw;
         background-color: #202020;
-        margin-top: -13px;
+        margin-top: 0px;
+        
     }
 
     a {
@@ -416,17 +419,20 @@ a{
     }
 
     .pFooter {
-        font-size: 12px;
-        margin-left: 48px;
-        margin-top: -22px;
+      font-size: 12px;
+        margin-left: 28px;
+        margin-top: 4px;
+        margin-right: -36px;
+        
     }
 
     .p2Footer {
         font-size: 12px;
         justify-content: center;
-        margin-top: -18px;
-        margin-left: 180px;
+        margin-top: 2px;
+        margin-left: 145px;
         margin-right: 0;
+        margin-bottom: -1px;
 
 
     }
