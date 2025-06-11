@@ -114,7 +114,7 @@ button {
     justify-content: center;
     height: 59vh;
     width: 50vw;
-    margin-bottom: 79px;
+    
 
 }
 
@@ -410,7 +410,7 @@ a{
         height: 77px;
         width: 100vw;
         background-color: #202020;
-        margin-top: 0px;
+        
         
     }
 
@@ -420,24 +420,15 @@ a{
 
     .pFooter {
       font-size: 12px;
-        margin-left: 28px;
+        margin-left: 55px;
         margin-top: 4px;
         margin-right: -36px;
         
     }
 
+  
+
     .p2Footer {
-        font-size: 12px;
-        justify-content: center;
-        margin-top: 2px;
-        margin-left: 145px;
-        margin-right: 0;
-        margin-bottom: -1px;
-
-
-    }
-
-    .p3Footer {
 
         font-size: 12px;
         justify-content: center;
